@@ -1,12 +1,20 @@
 {
-    "name": "Compound",
+    "name": "SelfTolen",
     "logoURI": "https://raw.githubusercontent.com/compound-finance/token-list/master/assets/compound-interface.svg",
     "keywords": [
-      "compound",
+      "swap",
       "defi"
     ],
     "timestamp": "2021-05-27T20:37:00.000+00:00",
     "tokens": [
+      {
+        "chainId": 534353,
+        "address": "0x27fcc1D698c7479E2D2A018e9A68e6cec8971431",
+        "name": "Wrapped ETH",
+        "symbol": "WETH",
+        "decimals": 18,
+        "logoURI": "https://assets.coingecko.com/coins/images/2518/thumb/weth.png?1628852295"
+      },
       {
         "chainId": 534353,
         "address": "0xabB0577C1024c06F16ab4aa926B94801eB6a3B65",
@@ -17,11 +25,27 @@
       },
       {
         "chainId": 534353,
-        "address": "0xabB0577C1024c06F16ab4aa926B94801eB6a3B65",
+        "address": "0xebC33238a1CC22B3150722d405fF48366C7B4900",
+        "name": "Uniswap",
+        "symbol": "UNI",
+        "decimals": 18,
+        "logoURI": "ipfs://QmXttGpZrECX5qCyXbBQiqgQNytVGeZW5Anewvh2jc4psg"
+      },
+      {
+        "chainId": 534353,
+        "address": "0xebC33238a1CC22B3150722d405fF48366C7B4900",
+        "name": "ChainLink Token",
+        "symbol": "LINK",
+        "decimals": 18,
+        "logoURI": "https://assets.coingecko.com/coins/images/877/thumb/chainlink-new-logo.png?1547034700"
+      },
+      {
+        "chainId": 534353,
+        "address": "0xefD4566335781F14aa98bCf5B50C91ec098d9eB5",
         "name": "SHIBA",
         "symbol": "SHIB",
         "decimals": 18,
-        "logoURI": "https://assets.coingecko.com/coins/images/11939/thumb/shiba.png?1622619446"
+        "logoURI": "https://www.gemini.com/images/currencies/icons/default/shib.svg"
       }
     ],
     "version": {
