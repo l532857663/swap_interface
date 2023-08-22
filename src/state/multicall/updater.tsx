@@ -181,6 +181,7 @@ export default function Updater(): null {
                 blockNumber: fetchBlockNumber
               })
             )
+            console.log('Get multicall chunk', chunk)
           })
           .catch((error: any) => {
             if (error instanceof CancelledError) {
